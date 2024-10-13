@@ -1,0 +1,11 @@
+public class NationalInstitute extends EducationalInstitute {
+    
+    public NationalInstitute(int srNo, String instituteName, String city, String state, String act, String ministry) {
+        super(srNo, instituteName, city, state, act, ministry);
+    }
+
+    @Override
+    public String getDetails() {
+        return "National Institute\n" + super.getDetails();
+    }
+}
